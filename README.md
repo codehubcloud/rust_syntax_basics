@@ -62,4 +62,5 @@
 
 ## 03 struct
 [cn] 本章节主要介绍结构体, 包括结构体定义，初始化赋值，实例更新，以及结构体方法，和tuple struct，这种结构成员变量没有名字，只有类型。
+
 [en] This section primarily introduces structures, including structure definitions, initialization and assignment, instance updates, structure methods, and tuple structs, which are structures whose members have no names but only types.
