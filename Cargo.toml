@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "01_base/data_type",
+    "01_base/function",
+    "01_base/hello_world",
+    "01_base/loop_structure",
+    "02_ownership/string",
+    "02_ownership/scope",
+    "02_ownership/move_feature",
+    "02_ownership/function_param",
+    "03_struct/struct_basic",
+    "03_struct/tuple_struct",
+    "03_struct/struct_example",
+    "03_struct/struct_methods",
+]

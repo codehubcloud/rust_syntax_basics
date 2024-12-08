@@ -59,3 +59,7 @@
 [cn] 这个章节重点介绍了函数参数、函数返回值的各种使用场景对所有权变化的问题，字符串的引用和借用，字符串的字面值，以及字符串的切片，其他类型的切片。
 
 [en] This section focuses on the various use cases of function parameters and return values in relation to ownership changes, string references and borrowing, string literals, string slices, and slices of other types.
+
+## 03 struct
+[cn] 本章节主要介绍结构体, 包括结构体定义，初始化赋值，实例更新，以及结构体方法，和tuple struct，这种结构成员变量没有名字，只有类型。
+[en] This section primarily introduces structures, including structure definitions, initialization and assignment, instance updates, structure methods, and tuple structs, which are structures whose members have no names but only types.
