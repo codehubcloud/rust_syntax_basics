@@ -7,6 +7,10 @@ name = "data_type"
 version = "0.1.0"
 
 [[package]]
+name = "enum_define"
+version = "0.1.0"
+
+[[package]]
 name = "function"
 version = "0.1.0"
 
@@ -24,6 +28,10 @@ version = "0.1.0"
 
 [[package]]
 name = "move_feature"
+version = "0.1.0"
+
+[[package]]
+name = "option"
 version = "0.1.0"
 
 [[package]]
