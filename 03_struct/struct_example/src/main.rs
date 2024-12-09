@@ -31,7 +31,10 @@ fn cal_area()
     area = get_area_of_rectangle_tuple(dim);
     println!("The area of rectangle length {} width {} is {}", dim.0, dim.1, area);
 
-    let rect = Rectangle { length: 20, width: 50 };
+    let rect = Rectangle {
+        length: 20,
+        width: 50,
+    };
     area = get_area_of_rectangle_struct(&rect);
     println!("The area of rectangle length {} width {} is {}", rect.length, rect.width, area);
 }

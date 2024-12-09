@@ -9,14 +9,24 @@ struct User
 // 不可变实例
 fn struct_instantiation()
 {
-    let user1 = User { username: String::from("ZhangSan"), email: String::from("123456@gmail.cm"), sign_in_cnt: 10, is_active: true };
+    let user1 = User {
+        username: String::from("ZhangSan"),
+        email: String::from("123456@gmail.cm"),
+        sign_in_cnt: 10,
+        is_active: true,
+    };
     println!("{} {} {} {}", user1.username, user1.email, user1.sign_in_cnt, user1.is_active);
 }
 
 // 可变实例，可变实例所有字段都可变，不允许单独设置成员可变或不可变
 fn struct_mut_instantiation()
 {
-    let mut user1 = User { username: String::from("ZhangSan"), email: String::from("123456@gmail.cm"), sign_in_cnt: 10, is_active: true };
+    let mut user1 = User {
+        username: String::from("ZhangSan"),
+        email: String::from("123456@gmail.cm"),
+        sign_in_cnt: 10,
+        is_active: true,
+    };
     println!("{} {} {} {}", user1.username, user1.email, user1.sign_in_cnt, user1.is_active);
     user1.email = String::from("789@gmail.com");
     println!("{} {} {} {}", user1.username, user1.email, user1.sign_in_cnt, user1.is_active);
@@ -26,7 +36,12 @@ fn struct_mut_instantiation()
 fn build_user(username: String, email: String) -> User
 {
     // let user = User { username, email, sign_in_cnt: 1, is_active: true }; // 可以简写 username, email 和入参同名，但是不推荐，可读性差
-    let user = User { username: username, email: email, sign_in_cnt: 1, is_active: true };
+    let user = User {
+        username: username,
+        email: email,
+        sign_in_cnt: 1,
+        is_active: true,
+    };
     return user;
 }
 

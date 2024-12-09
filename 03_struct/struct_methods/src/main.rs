@@ -10,7 +10,10 @@ impl Rectangle
     // 定义一个关联函数::
     fn build_rectangle(length: u32, width: u32) -> Rectangle
     {
-        return Rectangle { length: length, width: width };
+        return Rectangle {
+            length: length,
+            width: width,
+        };
     }
     fn get_area(&self) -> u32
     {
@@ -28,7 +31,10 @@ impl Rectangle
     // 定义一个关联函数::
     fn build_square(length: u32) -> Rectangle
     {
-        return Rectangle { length: length, width: length };
+        return Rectangle {
+            length: length,
+            width: length,
+        };
     }
 }
 
@@ -48,6 +54,7 @@ fn cal_area()
     area = square1.get_area();
     println!("The area of square length {} is {}", square1.length, area);
 }
+
 fn main()
 {
     cal_area();
