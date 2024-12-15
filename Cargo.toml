@@ -13,5 +13,5 @@ members = [
     "03_struct/tuple_struct",
     "03_struct/struct_example",
     "03_struct/struct_methods",
-    "04_enum/enum_define", "04_enum/option",
+    "04_enum/enum_define", "04_enum/option", "04_enum/match_use",
 ]
