@@ -1,0 +1,9 @@
+G:\SoftwareDevelopment\LearnCode\rust\rust_syntax_basics\target\debug\deps\libmodule_and_file-4f96716817f6d0fc.rmeta: 05_package_crate_module\module_and_file\src\lib.rs 05_package_crate_module\module_and_file\src\front_of_house.rs 05_package_crate_module\module_and_file\src\front_of_house\hosting.rs 05_package_crate_module\module_and_file\src\front_of_house\serving.rs 05_package_crate_module\module_and_file\src\back_of_house.rs
+
+G:\SoftwareDevelopment\LearnCode\rust\rust_syntax_basics\target\debug\deps\module_and_file-4f96716817f6d0fc.d: 05_package_crate_module\module_and_file\src\lib.rs 05_package_crate_module\module_and_file\src\front_of_house.rs 05_package_crate_module\module_and_file\src\front_of_house\hosting.rs 05_package_crate_module\module_and_file\src\front_of_house\serving.rs 05_package_crate_module\module_and_file\src\back_of_house.rs
+
+05_package_crate_module\module_and_file\src\lib.rs:
+05_package_crate_module\module_and_file\src\front_of_house.rs:
+05_package_crate_module\module_and_file\src\front_of_house\hosting.rs:
+05_package_crate_module\module_and_file\src\front_of_house\serving.rs:
+05_package_crate_module\module_and_file\src\back_of_house.rs:

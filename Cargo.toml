@@ -16,5 +16,12 @@ members = [
     "04_enum/enum_define",
     "04_enum/option",
     "04_enum/match_use",
-    "04_enum/if_let", "05_package_crate_module/package_usage", "05_package_crate_module/package_crate_module_usage", "05_package_crate_module/path", "05_package_crate_module/super_pub_struct_enum", "05_package_crate_module/use_keyword", "05_package_crate_module/pub_use", "05_package_crate_module/module_and_file",
+    "04_enum/if_let",
+    "05_package_crate_module/package_usage",
+    "05_package_crate_module/package_crate_module_usage",
+    "05_package_crate_module/path",
+    "05_package_crate_module/super_pub_struct_enum",
+    "05_package_crate_module/use_keyword",
+    "05_package_crate_module/pub_use",
+    "05_package_crate_module/module_and_file",
 ]
