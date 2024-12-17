@@ -23,6 +23,10 @@ name = "hello_world"
 version = "0.1.0"
 
 [[package]]
+name = "if_let"
+version = "0.1.0"
+
+[[package]]
 name = "loop_structure"
 version = "0.1.0"
 
@@ -31,11 +35,31 @@ name = "match_use"
 version = "0.1.0"
 
 [[package]]
+name = "module_and_file"
+version = "0.1.0"
+
+[[package]]
 name = "move_feature"
 version = "0.1.0"
 
 [[package]]
 name = "option"
+version = "0.1.0"
+
+[[package]]
+name = "package_crate_module_usage"
+version = "0.1.0"
+
+[[package]]
+name = "package_usage"
+version = "0.1.0"
+
+[[package]]
+name = "path"
+version = "0.1.0"
+
+[[package]]
+name = "pub_use"
 version = "0.1.0"
 
 [[package]]
@@ -59,5 +83,13 @@ name = "struct_methods"
 version = "0.1.0"
 
 [[package]]
+name = "super_pub_struct_enum"
+version = "0.1.0"
+
+[[package]]
 name = "tuple_struct"
+version = "0.1.0"
+
+[[package]]
+name = "use_keyword"
 version = "0.1.0"

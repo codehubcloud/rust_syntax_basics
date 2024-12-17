@@ -65,3 +65,15 @@
 [cn] 本章节主要介绍结构体, 包括结构体定义，初始化赋值，实例更新，以及结构体方法，和tuple struct，这种结构成员变量没有名字，只有类型。
 
 [en] This section primarily introduces structures, including structure definitions, initialization and assignment, instance updates, structure methods, and tuple structs, which are structures whose members have no names but only types.
+
+## 04 enum
+
+[cn] 本章节主要介绍枚举, 包括枚举定义，初始化赋值，实例更新，以及枚举与模式匹配。
+
+[en] This section primarily introduces enumerations, including enumeration definitions, initialization and assignment, instance updates, and enumeration with pattern matching.
+
+## 05 package crate module usage
+
+[cn] 本章节主要介绍包，crate，模块的使用。
+
+[en] This section primarily introduces packages, crates, and modules.
