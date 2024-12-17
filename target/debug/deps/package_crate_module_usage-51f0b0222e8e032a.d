@@ -1,5 +1,0 @@
-G:\SoftwareDevelopment\LearnCode\rust\rust_syntax_basics\target\debug\deps\libpackage_crate_module_usage-51f0b0222e8e032a.rmeta: 05_package_crate_module\package_crate_module_usage\src\lib.rs
-
-G:\SoftwareDevelopment\LearnCode\rust\rust_syntax_basics\target\debug\deps\package_crate_module_usage-51f0b0222e8e032a.d: 05_package_crate_module\package_crate_module_usage\src\lib.rs
-
-05_package_crate_module\package_crate_module_usage\src\lib.rs:
