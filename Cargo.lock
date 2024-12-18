@@ -19,6 +19,10 @@ name = "function_param"
 version = "0.1.0"
 
 [[package]]
+name = "hashmap"
+version = "0.1.0"
+
+[[package]]
 name = "hello_world"
 version = "0.1.0"
 
@@ -71,6 +75,10 @@ name = "string"
 version = "0.1.0"
 
 [[package]]
+name = "string_new_update"
+version = "0.1.0"
+
+[[package]]
 name = "struct_basic"
 version = "0.1.0"
 
@@ -92,4 +100,12 @@ version = "0.1.0"
 
 [[package]]
 name = "use_keyword"
+version = "0.1.0"
+
+[[package]]
+name = "vector"
+version = "0.1.0"
+
+[[package]]
+name = "vector_enum"
 version = "0.1.0"

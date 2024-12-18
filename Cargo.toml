@@ -24,4 +24,8 @@ members = [
     "05_package_crate_module/use_keyword",
     "05_package_crate_module/pub_use",
     "05_package_crate_module/module_and_file",
+    "06_common_sets/vector",
+    "06_common_sets/hashmap",
+    "06_common_sets/vector_enum",
+    "06_common_sets/string_new_update",
 ]
