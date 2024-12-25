@@ -59,6 +59,10 @@ name = "package_usage"
 version = "0.1.0"
 
 [[package]]
+name = "panic"
+version = "0.1.0"
+
+[[package]]
 name = "path"
 version = "0.1.0"
 
