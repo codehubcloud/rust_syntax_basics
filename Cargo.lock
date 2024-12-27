@@ -71,6 +71,14 @@ name = "pub_use"
 version = "0.1.0"
 
 [[package]]
+name = "result_recover_error"
+version = "0.1.0"
+
+[[package]]
+name = "resut_unrecover_error"
+version = "0.1.0"
+
+[[package]]
 name = "scope"
 version = "0.1.0"
 

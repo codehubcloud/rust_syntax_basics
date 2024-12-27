@@ -29,4 +29,6 @@ members = [
     "06_common_sets/vector_enum",
     "06_common_sets/string_new_update",
     "07_error_handler/panic",
+    "07_error_handler/resut_unrecover_error",
+    "07_error_handler/result_recover_error",
 ]
