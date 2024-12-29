@@ -11,10 +11,10 @@ fn makes_copy(in_number: i32)
 fn function_param_ownership_move_or_copy()
 {
     let str = String::from("Hello World");
-    take_owership(str); // 这里str已经move了，在这之后，str失效
+    take_owership(str); // 这里str已经move了, 在这之后, str失效
                         // println!("{}", str); // ^^^ value borrowed here after move
     let x = 5;
-    makes_copy(x); // 这里传入的是x的copy trait副本，下面的x仍然有效
+    makes_copy(x); // 这里传入的是x的copy trait副本, 下面的x仍然有效
 
     println!("{}", x);
 }
@@ -35,7 +35,7 @@ fn function_param_ownership_return_value()
     let str1 = gives_ownership(); // 返回值所有权移动
     println!("{}", str1);
     let str2 = String::from("Ownership");
-    let str3 = takes_and_gives_back(str2); // 先把str2的所有权移动给takes_and_gives_back函数内部，然后内部通过返回值又移动给str3
+    let str3 = takes_and_gives_back(str2); // 先把str2的所有权移动给takes_and_gives_back函数内部, 然后内部通过返回值又移动给str3
     println!("{}", str3);
 }
 
@@ -48,12 +48,12 @@ fn get_string_length(str: String) -> (String, usize)
 fn function_use_value_not_get_ownership()
 {
     let str1 = String::from("use_value_not_get_ownership");
-    let (str2, len) = get_string_length(str1); // 先把str1的所有权移动给get_string_length函数内部，然后内部通过返回值又移动给str2
+    let (str2, len) = get_string_length(str1); // 先把str1的所有权移动给get_string_length函数内部, 然后内部通过返回值又移动给str2
     println!("{} {}", str2, len);
 }
 
 /*
- 使用&符号使用引用方式传参，避免所有权移动, 注意: &符号是在类型前，不是在参数前
+ 使用&符号使用引用方式传参, 避免所有权移动, 注意: &符号是在类型前, 不是在参数前
  借用(指的是行为): 指把引用作为函数参数的行为叫借用
 */
 fn get_string_length_by_reference(str: &String) -> usize
@@ -86,7 +86,7 @@ fn function_param_can_change_reference()
 }
 
 /*
- 在相同作用域，不能存在多个可变引用
+ 在相同作用域, 不能存在多个可变引用
 */
 fn can_change_reference_can_only_use_once_in_same_scope()
 {
@@ -111,7 +111,7 @@ fn can_change_reference_can_use_in_difference_scope()
 } // scope 1 end
 
 /*
- 在相同作用域，可以同时存在多个不可变引用
+ 在相同作用域, 可以同时存在多个不可变引用
  不能同时存在可变引用和不可变引用
 */
 fn can_not_use_can_change_and_cannot_change_reference_as_same_time()
@@ -177,7 +177,7 @@ fn slice_for_string()
 
 // &str 返回值表示字符串切片
 // fn get_first_word_in_string_by_slice(str: &String) -> &str
-// 参数可直接使用字符串切片&str, 会使API更加通用，功能不会有任何损失
+// 参数可直接使用字符串切片&str, 会使API更加通用, 功能不会有任何损失
 fn get_first_word_in_string_by_slice(str: &str) -> &str
 {
     let bytes = str.as_bytes(); // 获取字符串的字节数组

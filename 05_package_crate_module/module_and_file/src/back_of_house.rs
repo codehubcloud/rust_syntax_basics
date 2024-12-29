@@ -1,4 +1,4 @@
-// 加了pub关键字, 公有结构体，但是里面的字段不指定pubs的是私有字段
+// 加了pub关键字, 公有结构体, 但是里面的字段不指定pubs的是私有字段
 pub struct Breakfast
 {
     pub toast: String,    // 加pub关键字, 公有字段

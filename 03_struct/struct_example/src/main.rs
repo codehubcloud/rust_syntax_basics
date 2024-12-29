@@ -14,7 +14,7 @@ struct Rectangle
     width: u32,
 }
 
-// 使用不可变的引用，实例不可变的借用
+// 使用不可变的引用, 实例不可变的借用
 fn get_area_of_rectangle_struct(rect: &Rectangle) -> u32
 {
     return rect.length * rect.width;

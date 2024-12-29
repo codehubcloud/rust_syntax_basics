@@ -18,7 +18,7 @@ fn struct_instantiation()
     println!("{} {} {} {}", user1.username, user1.email, user1.sign_in_cnt, user1.is_active);
 }
 
-// 可变实例，可变实例所有字段都可变，不允许单独设置成员可变或不可变
+// 可变实例, 可变实例所有字段都可变, 不允许单独设置成员可变或不可变
 fn struct_mut_instantiation()
 {
     let mut user1 = User {
@@ -35,7 +35,7 @@ fn struct_mut_instantiation()
 // 结构体作为函数的返回值
 fn build_user(username: String, email: String) -> User
 {
-    // let user = User { username, email, sign_in_cnt: 1, is_active: true }; // 可以简写 username, email 和入参同名，但是不推荐，可读性差
+    // let user = User { username, email, sign_in_cnt: 1, is_active: true }; // 可以简写 username, email 和入参同名, 但是不推荐, 可读性差
     let user = User {
         username: username,
         email: email,
@@ -59,7 +59,7 @@ fn struct_update()
     let user2 = User {
         username: String::from("LiSi"),
         email: String::from("2048@gmail.com"),
-        ..user1 // 这里就是更新语法，其他字段和user1一致
+        ..user1 // 这里就是更新语法, 其他字段和user1一致
     };
     println!("{} {} {} {}", user2.username, user2.email, user2.sign_in_cnt, user2.is_active);
 }

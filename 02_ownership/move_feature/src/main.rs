@@ -3,7 +3,7 @@ fn var_data_swap_way_move()
     let str1 = String::from("Move");
     let str2 = str1; // 这里就是进行了移动(move)
 
-    // println!("str1: {}",str1); // ^^^^ value borrowed here after move, str1 String类型分配了heap资源，无法使用简单的copy
+    // println!("str1: {}",str1); // ^^^^ value borrowed here after move, str1 String类型分配了heap资源, 无法使用简单的copy
     println!("str2: {}", str2);
 }
 

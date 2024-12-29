@@ -33,7 +33,7 @@ fn value_in_cents(coin: Coin) -> u8
 fn plus_one(x: Option<i32>) -> Option<i32>
 {
     match x {
-        None => None, // 所有的都要列举出来，否则编译不通过
+        None => None, // 所有的都要列举出来, 否则编译不通过
         Some(i) => Some(i + 1),
     }
 }

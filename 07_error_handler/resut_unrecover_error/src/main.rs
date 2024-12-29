@@ -18,9 +18,9 @@ fn file_open_and_create()
     let f = match f {
         Ok(file) => file,
         Err(error) => match error.kind() {
-            // error.kind() 也是枚举类型，是IO操错误类型
+            // error.kind() 也是枚举类型, 是IO操错误类型
             ErrorKind::NotFound => match File::create("hello1.txt") {
-                // 如果文件不存在，创建文件
+                // 如果文件不存在, 创建文件
                 Ok(fc) => fc,
                 Err(e) => {
                     panic!("Problem creating the file: {:?}", e);

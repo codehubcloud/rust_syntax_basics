@@ -121,3 +121,7 @@ version = "0.1.0"
 [[package]]
 name = "vector_enum"
 version = "0.1.0"
+
+[[package]]
+name = "when_use_panic"
+version = "0.1.0"

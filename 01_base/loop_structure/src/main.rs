@@ -6,7 +6,7 @@ fn loop_func()
 
         if cnt == 10 {
             cnt = cnt * 2;
-            break cnt; // break 需要带一个值，下面的写法更好
+            break cnt; // break 需要带一个值, 下面的写法更好
         }
 
         // if cnt == 10 {
