@@ -11,11 +11,19 @@ name = "enum_define"
 version = "0.1.0"
 
 [[package]]
+name = "extract_function_eliminate_duplication"
+version = "0.1.0"
+
+[[package]]
 name = "function"
 version = "0.1.0"
 
 [[package]]
 name = "function_param"
+version = "0.1.0"
+
+[[package]]
+name = "generic_program"
 version = "0.1.0"
 
 [[package]]
@@ -104,6 +112,10 @@ version = "0.1.0"
 
 [[package]]
 name = "super_pub_struct_enum"
+version = "0.1.0"
+
+[[package]]
+name = "trait_ways"
 version = "0.1.0"
 
 [[package]]

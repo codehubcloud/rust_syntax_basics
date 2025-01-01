@@ -85,7 +85,7 @@ impl Guess
         if value < 1 || value > 100 {
             panic!("Guess value must be between 1 and 100, got {}", value);
         }
-
+        // 创建Guess实例
         Guess {
             value,
         }
@@ -123,3 +123,4 @@ fn main()
     guess_number();
     guess_number_optimized();
 }
+
