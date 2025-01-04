@@ -31,5 +31,9 @@ members = [
     "07_error_handler/panic",
     "07_error_handler/resut_unrecover_error",
     "07_error_handler/result_recover_error",
-    "07_error_handler/when_use_panic", "08_generic_trait_lifetime/extract_function_eliminate_duplication", "08_generic_trait_lifetime/generic_program", "08_generic_trait_lifetime/trait_ways",
+    "07_error_handler/when_use_panic",
+    "08_generic_trait_lifetime/extract_function_eliminate_duplication",
+    "08_generic_trait_lifetime/generic_program",
+    "08_generic_trait_lifetime/trait_ways",
+    "08_generic_trait_lifetime/lifetime",
 ]

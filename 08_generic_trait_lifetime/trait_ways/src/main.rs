@@ -30,8 +30,32 @@ fn tweet_instance()
     println!("{}", tweet.summarize());
 }
 
+
+fn get_largest_test()
+{
+    let number_list = vec![34, 50, 25, 100, 65];
+    let result = trait_ways::get_largest(&number_list);
+    println!("The largest number is {}", result);
+
+    let char_list = vec!['y', 'm', 'a', 'q'];
+    let result = trait_ways::get_largest(&char_list);
+    println!("The largest char is {}", result);
+}
+
+/*
+ 也可以为实现了其它Trait的任意类型有条件的实现某个Trait
+ 为满足Trait Bound的所有类型上实现Trait叫做覆盖实现(blanketdimplementations)
+*/
+fn to_string_fn()
+{
+    let s = 3.to_string();
+    println!("{}", s);
+}
+
 fn main()
 {
     news_article_instance();
     tweet_instance();
+    get_largest_test();
+    to_string_fn();
 }

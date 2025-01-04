@@ -39,6 +39,10 @@ name = "if_let"
 version = "0.1.0"
 
 [[package]]
+name = "lifetime"
+version = "0.1.0"
+
+[[package]]
 name = "loop_structure"
 version = "0.1.0"
 
