@@ -37,12 +37,12 @@ fn get_file_content_use_question_mark() -> Result<String, io::Error>
  Trait std::convert::From上的from函数:
  - 用于错误之间的转换被
  ?所应用的错误,会隐式的被from函数处理
- 当？调用 from 函数时：
+ 当？调用 from 函数时: 
  -它所接收的错误类型会被转化为当前函数返回类型所定义的错误类型
- 用于：针对不同错误原因, 返回同一种错误类型
+ 用于: 针对不同错误原因, 返回同一种错误类型
  -只要每个错误类型实现了转换为所返回的错误类型的from函数
 
- 注：?运算符只能用于返回Result的函数
+ 注: ?运算符只能用于返回Result的函数
 */
 
 fn get_file_content_use_question_mark_from() -> Result<String, io::Error>
@@ -59,9 +59,9 @@ fn question_mark_can_only_use_in_return_result()
 
 /*
 
-？运算符与 main 函数main 函数返回类型是：（）
+？运算符与 main 函数main 函数返回类型是: （）
 -（例子）
-main 函数的返回类型也可以是： Result<T, E>
+main 函数的返回类型也可以是:  Result<T, E>
 -（例子）
 Box<dyn Error> 是 trait 对象:
 -简单理解: “任何可能的错误类型”

@@ -43,7 +43,7 @@ fn string_update_usage()
 {
     let mut s1 = String::from("init data content");
 
-    // push_str()方法：把一个字符串切片附加到 String （例子）
+    // push_str()方法: 把一个字符串切片附加到 String （例子）
     s1.push_str("append data content"); // push_str方法不会获取所有权, 而是借用
 
     //push()方法:把单个字符附加到String (例子)

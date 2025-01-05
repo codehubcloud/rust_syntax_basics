@@ -51,7 +51,7 @@ impl Summary for Tweet
 }
 
 /* impl trait语法: 适用于简单情况
-   trait 作为参数，实现调用 trait 的summarize方法
+   trait 作为参数, 实现调用 trait 的summarize方法
 */
 pub fn impl_trait_as_parameter_for_summary1(item1: impl Summary)
 {
@@ -59,7 +59,7 @@ pub fn impl_trait_as_parameter_for_summary1(item1: impl Summary)
 }
 
 /*Trait Bound 语法: 适用于复杂情况
-  trait 作为参数，实现调用 trait 的summarize方法
+  trait 作为参数, 实现调用 trait 的summarize方法
 */
 // pub fn impl_trait_as_parameter_for_summary1(item1 : &impl Summary)
 // {
@@ -70,7 +70,7 @@ pub fn trait_bound_as_parameter_for_summary1<T: Summary>(item1: T)
     println!("Breaking news! {}", item1.summarize());
 }
 
-// 传递多个参数，使用 impl trait 语法
+// 传递多个参数, 使用 impl trait 语法
 pub fn impl_trait_as_parameter_for_summary2(item1: impl Summary, item2: impl Summary)
 {
     println!("Breaking news! {} {}", item1.summarize(), item2.summarize());
@@ -82,7 +82,7 @@ pub fn trait_bound_as_parameter_for_summary2<T: Summary>(item1: T, item2: T)
     println!("Breaking news! {} {}", item1.summarize(), item2.summarize());
 }
 
-// 使用 + 语法，可以传递多个 trait bound
+// 使用 + 语法, 可以传递多个 trait bound
 pub fn impl_trait_as_parameter_for_summary3(item1: impl Summary + Display)
 {
     println!("Breaking news! {}", item1.summarize());
@@ -93,7 +93,7 @@ pub fn plus_trait_bound_as_parameter_for_summary3<T: Summary + Display>(item1: T
     println!("Breaking news! {}", item1.summarize());
 }
 
-// 使用 where 语法，可以传递多个 trait bound, 方法签名没有那么乱
+// 使用 where 语法, 可以传递多个 trait bound, 方法签名没有那么乱
 pub fn trait_bound_as_parameter_for_summary4<T: Summary + Display, U: Clone + Debug>(item1: T, item2: U) -> String
 {
     format!("Breaking news! {}", item1.summarize())
@@ -109,7 +109,7 @@ where
 
 /*
  实现trait 作为返回值类型
- 注意：impl Trait 只能返回确定的同一种类型，返回可能不同类型的代码会报错
+ 注意: impl Trait 只能返回确定的同一种类型, 返回可能不同类型的代码会报错
 */
 pub fn impl_trait_as_return_value(s: &str, flag: bool) -> impl Summary
 {
@@ -135,7 +135,7 @@ pub fn get_largest<T: PartialOrd + Clone>(list: &[T]) -> &T
 {
     let mut largest = &list[0];
     for item in list.iter() {
-        // >的方法： std::cmp::PartialOrd
+        // >的方法:  std::cmp::PartialOrd
         if item > &largest {
             largest = item;
         }
@@ -154,7 +154,7 @@ struct Pair<T>
 
 impl<T> Pair<T>
 {
-    // 无论T是什么类型， 都实现了new方法
+    // 无论T是什么类型,  都实现了new方法
     fn new(x: T, y: T) -> Self
     {
         Self {
@@ -181,7 +181,7 @@ impl<T: Display + PartialOrd> Pair<T>
  也可以为实现了其它Trait的任意类型有条件的实现某个Trait
  为满足Trait Bound的所有类型上实现Trait叫做覆盖实现(blanketdimplementations)
 */
-// 在标准库中string.rs中，实现了Display的类型都可以调用to_string方法
+// 在标准库中string.rs中, 实现了Display的类型都可以调用to_string方法
 /*
 #[stable(feature = "rust1", since = "1.0.0")]
 impl<T: fmt::Display> ToString for T

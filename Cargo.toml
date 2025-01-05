@@ -36,4 +36,12 @@ members = [
     "08_generic_trait_lifetime/generic_program",
     "08_generic_trait_lifetime/trait_ways",
     "08_generic_trait_lifetime/lifetime",
+    "09_auto_test/adder",
+    "09_auto_test/assert",
+    "09_auto_test/assert_eq",
+    "09_auto_test/assert_ne",
+    "09_auto_test/custom_info_for_asserts",
+    "09_auto_test/should_panic",
+    "09_auto_test/result",
+    "09_auto_test/how_to_control_test_run", "09_auto_test/run_tests_by_test_name", "09_auto_test/ignore_some_tests",
 ]

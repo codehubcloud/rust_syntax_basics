@@ -3,6 +3,26 @@
 version = 3
 
 [[package]]
+name = "adder"
+version = "0.1.0"
+
+[[package]]
+name = "assert"
+version = "0.1.0"
+
+[[package]]
+name = "assert_eq"
+version = "0.1.0"
+
+[[package]]
+name = "assert_ne"
+version = "0.1.0"
+
+[[package]]
+name = "custom_info_for_asserts"
+version = "0.1.0"
+
+[[package]]
 name = "data_type"
 version = "0.1.0"
 
@@ -35,7 +55,15 @@ name = "hello_world"
 version = "0.1.0"
 
 [[package]]
+name = "how_to_control_test_run"
+version = "0.1.0"
+
+[[package]]
 name = "if_let"
+version = "0.1.0"
+
+[[package]]
+name = "ignore_some_tests"
 version = "0.1.0"
 
 [[package]]
@@ -83,6 +111,10 @@ name = "pub_use"
 version = "0.1.0"
 
 [[package]]
+name = "result"
+version = "0.1.0"
+
+[[package]]
 name = "result_recover_error"
 version = "0.1.0"
 
@@ -91,7 +123,15 @@ name = "resut_unrecover_error"
 version = "0.1.0"
 
 [[package]]
+name = "run_tests_by_test_name"
+version = "0.1.0"
+
+[[package]]
 name = "scope"
+version = "0.1.0"
+
+[[package]]
+name = "should_panic"
 version = "0.1.0"
 
 [[package]]
